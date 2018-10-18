@@ -16,7 +16,7 @@ const GraduateProgram = () => {
             meta_description={it.L('[_1] Graduate Programme', it.broker_name)}
             css_files={[
                 it.url_for('css/graduate_program.css'),
-                'https://style.binary.com/binary.css',
+                'https://style.binary.me/binary.css',
             ]}
             js_files={[
                 it.url_for('js/landing_pages/common.js'),

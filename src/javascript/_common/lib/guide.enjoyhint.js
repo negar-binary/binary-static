@@ -1,5 +1,5 @@
 // https://github.com/xbsoftware/enjoyhint
-// (+ some custom changes for binary.com)
+// (+ some custom changes for binary.me)
 
 var $ = require('jquery');
 var Kinetic = require('kinetic');

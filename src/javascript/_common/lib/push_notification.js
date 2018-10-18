@@ -9,14 +9,14 @@ const BinaryPushwoosh = (() => {
     let initialised = false;
 
     const init = () => {
-        if (!/^(www|staging)\.binary\.com$/.test(window.location.hostname)) return;
+        if (!/^(staging\.binary.com|www\.binary\.me)$/.test(window.location.hostname)) return;
 
         if (!initialised) {
             pw.push(['init', {
                 logLevel                : 'error', // or info or debug
                 applicationCode         : 'D04E6-FA474',
                 safariWebsitePushID     : 'web.com.binary',
-                defaultNotificationTitle: 'Binary.com',
+                defaultNotificationTitle: 'Binary.me',
                 defaultNotificationImage: 'https://style.binary.com/images/logo/logomark.png',
             }]);
             initialised = true;

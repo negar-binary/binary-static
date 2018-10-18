@@ -69,7 +69,7 @@ const urls = [
     // ['hackathon',                          'monthly', 0.80, 'NOT-en'],
 ];
 
-const url_prefix = 'https://www.binary.com/';
+const url_prefix = 'https://www.binary.me/';
 const filename   = 'sitemap.xml';
 let excluded     = 0;
 

@@ -129,7 +129,7 @@ const PaymentMethods = () => {
                                             { text: '500 - 100,000' },
                                             { text: '500 - 100,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${working_day}`, 1), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_BankWire.pdf' video_link='https://youtu.be/fbnOZAf-04Y' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_BankWire.pdf' video_link='https://youtu.be/fbnOZAf-04Y' /> },
                                         ],
                                         },
                                     ]}
@@ -167,7 +167,7 @@ const PaymentMethods = () => {
                                             { text: '25 - 10,000' },
                                             { text: '25 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_PaySec.pdf' video_link='https://youtu.be/DTVspCgnx0M' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_PaySec.pdf' video_link='https://youtu.be/DTVspCgnx0M' /> },
                                         ],
                                         },
                                     ]}
@@ -195,7 +195,7 @@ const PaymentMethods = () => {
                                             { text: '10 - 10,000' },
                                             { text: '10 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Credit_Debit.pdf' video_link='https://youtu.be/n_qQbML_qAI' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Credit_Debit.pdf' video_link='https://youtu.be/n_qQbML_qAI' /> },
                                         ],
                                         },
                                     ]}
@@ -214,7 +214,7 @@ const PaymentMethods = () => {
                                             { text: '10 - 10,000' },
                                             { text: '10 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Credit_Debit.pdf' video_link='https://youtu.be/n_qQbML_qAI' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Credit_Debit.pdf' video_link='https://youtu.be/n_qQbML_qAI' /> },
                                         ],
                                         },
                                     ]}
@@ -246,7 +246,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 10,000' },
                                             { text: '5 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Fasapay.pdf' video_link='https://youtu.be/PTHLbIRLP58' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Fasapay.pdf' video_link='https://youtu.be/PTHLbIRLP58' /> },
                                         ],
                                         },
                                     ]}
@@ -265,7 +265,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 10,000' },
                                             { text: '5 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_PerfectMoney.pdf' video_link='https://youtu.be/fBt71VBp2Pw' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_PerfectMoney.pdf' video_link='https://youtu.be/fBt71VBp2Pw' /> },
                                         ],
                                         },
                                     ]}
@@ -284,7 +284,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 10,000' },
                                             { text: '5 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Skrill.pdf' video_link='https://youtu.be/pQDVDC-mWuA' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Skrill.pdf' video_link='https://youtu.be/pQDVDC-mWuA' /> },
                                         ],
                                         },
                                     ]}
@@ -303,7 +303,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 10,000' },
                                             { text: '5 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Neteller.pdf' video_link='https://youtu.be/uHjRXzMQ8FY' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Neteller.pdf' video_link='https://youtu.be/uHjRXzMQ8FY' /> },
                                         ],
                                         },
                                     ]}
@@ -322,7 +322,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 10,000' },
                                             { text: '5 - 10,000' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_WebMoney.pdf' video_link='https://youtu.be/e0THC3c-fEE' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_WebMoney.pdf' video_link='https://youtu.be/e0THC3c-fEE' /> },
                                         ],
                                         },
                                     ]}
@@ -341,7 +341,7 @@ const PaymentMethods = () => {
                                             { text: <TableValues value={['5 - 200 (USD)', '5 - 150 (EUR)']} /> },
                                             { text: <TableValues value={['5 - 200 (USD)', '5 - 150 (EUR)']} /> },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Qiwi.pdf' video_link='https://youtu.be/CMAF29cn9XQ' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Qiwi.pdf' video_link='https://youtu.be/CMAF29cn9XQ' /> },
                                         ],
                                         },
                                     ]}
@@ -379,7 +379,7 @@ const PaymentMethods = () => {
                                             { text: '5 - 1,000' },
                                             { text: '5 - 750' },
                                             { text: <TableValues value={[it.L(`${deposit}${instant}`), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_PaySafeCard.pdf' video_link='https://youtu.be/5QzGc1nleQo' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_PaySafeCard.pdf' video_link='https://youtu.be/5QzGc1nleQo' /> },
                                         ],
                                         },
                                     ]}
@@ -426,7 +426,7 @@ const PaymentMethods = () => {
                                             { text: '0.002' },
                                             { text: '0.0003' },
                                             { text: <TableValues value={[it.L(`${deposit}${blockchain_confirmations}`, 3), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Bitcoin.pdf' video_link='https://youtu.be/StIW7CviBTw' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Bitcoin.pdf' video_link='https://youtu.be/StIW7CviBTw' /> },
                                         ],
                                         },
                                     ]}
@@ -445,7 +445,7 @@ const PaymentMethods = () => {
                                             { text: '0.01' },
                                             { text: '0.003' },
                                             { text: <TableValues value={[it.L(`${deposit}${blockchain_confirmations}`, 3), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_BitcoinCash.pdf' video_link='https://youtu.be/jmTx7QMi-Tg' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_BitcoinCash.pdf' video_link='https://youtu.be/jmTx7QMi-Tg' /> },
                                         ],
                                         },
                                     ]}
@@ -464,7 +464,7 @@ const PaymentMethods = () => {
                                             { text: '0.01' },
                                             { text: '0.01' },
                                             { text: <TableValues value={[it.L(`${deposit}${blockchain_confirmations}`, 3), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Ethereum.pdf' video_link='https://youtu.be/B7EVLt3lIMs' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Ethereum.pdf' video_link='https://youtu.be/B7EVLt3lIMs' /> },
                                         ],
                                         },
                                     ]}
@@ -501,7 +501,7 @@ const PaymentMethods = () => {
                                             { text: '0.1' },
                                             { text: '0.02' },
                                             { text: <TableValues value={[it.L(`${deposit}${blockchain_confirmations}`, 3), it.L(`${withdrawal}${working_day}`, 1)]} /> },
-                                            { text: <ReferenceLinks pdf_file='Binary.com_Litecoin.pdf' video_link='https://youtu.be/DJhP5UjKPpI' /> },
+                                            { text: <ReferenceLinks pdf_file='Binary_Litecoin.pdf' video_link='https://youtu.be/DJhP5UjKPpI' /> },
                                         ],
                                         },
                                     ]}

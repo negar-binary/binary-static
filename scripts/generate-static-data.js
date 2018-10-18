@@ -654,7 +654,7 @@ const texts = [
     'Submitted',
 
     // third party link confirmation dialog/popup
-    'You will be redirected to a third-party website which is not owned by Binary.com.',
+    'You will be redirected to a third-party website which is not owned by Binary.me.',
     'Click OK to proceed.',
 
     // two factor authentication
