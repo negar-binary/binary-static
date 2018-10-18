@@ -16,7 +16,7 @@ const Login = (() => {
         const language   = getLanguage();
         return ((server_url && /qa/.test(server_url)) ?
             `https://www.${server_url.split('.')[1]}.com/oauth2/authorize?app_id=${getAppId()}&l=${language}` :
-            `https://oauth.binary.com/oauth2/authorize?app_id=${getAppId()}&l=${language}`
+            `https://oauth.binary.me/oauth2/authorize?app_id=${getAppId()}&l=${language}`
         );
     };
 
