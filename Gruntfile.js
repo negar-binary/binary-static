@@ -1,9 +1,9 @@
 module.exports = function (grunt) {
     // map release parameters to the required branch, origin, and target gh-pages sub-folder
     global.release_config = {
-        production  : { branch: 'master',       target_folder: '',             origin: 'git@github.com:binary-static-deployed/binary-static.git', CNAME: 'www.binary.me' },
-        staging     : { branch: 'master',       target_folder: '',             origin: 'git@github.com:binary-com/binary-static.git',             CNAME: 'staging.binary.com' },
-        translations: { branch: 'translations', target_folder: 'translations', origin: 'git@github.com:binary-com/binary-static.git',             CNAME: 'staging.binary.com' },
+        production  : { branch: 'master',       target_folder: '',             origin: 'git@github.com:binary-static-deployed-binary-me/binary-static.git', CNAME: 'www.binary.me' },
+        staging     : { branch: 'master',       target_folder: '',             origin: 'git@github.com:binary-com/binary-static.git',                       CNAME: 'staging.binary.com' },
+        translations: { branch: 'translations', target_folder: 'translations', origin: 'git@github.com:binary-com/binary-static.git',                       CNAME: 'staging.binary.com' },
     };
 
     if (grunt.cli.tasks[0] === 'release') {
