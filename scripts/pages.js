@@ -19,7 +19,7 @@ module.exports = [
     ['new_account/maltainvestws',               'app/new_account/financial',                   'default',    'Financial Account Opening'],
     ['new_account/realws',                      'app/new_account/real',                        'default',    'Real Money Account Opening'],
     ['new_account/virtualws',                   'app/new_account/virtual',                     'default',    'Create New Virtual-money Account'],
-    ['new_account/welcome',                     'app/new_account/welcome_page',                'default',    'Welcome to Binary.com'],
+    ['new_account/welcome',                     'app/new_account/welcome_page',                'default',    'Welcome to Binary.me'],
 
     ['resources',                               'app/resources/index',                         'default',    'Resources'],
     ['resources/asset_indexws',                 'app/resources/asset_index',                   'full_width', 'Asset Index'],
@@ -44,7 +44,7 @@ module.exports = [
     ['user/security/limitsws',                  'app/user/security/limits',                    'default',    'Account Limits'],
     ['user/security/self_exclusionws',          'app/user/security/self_exclusion',            'default',    'Self Exclusion'],
     ['user/security/two_factor_authentication', 'app/user/security/two_factor_authentication', 'default',    'Two-Factor Authentication'],
-    ['user/security/cloudflare_dns',            'app/user/security/cloudflare_dns',            'default',    'Binary.com recommends 1.1.1.1'],
+    ['user/security/cloudflare_dns',            'app/user/security/cloudflare_dns',            'default',    'Binary.me recommends 1.1.1.1'],
     ['user/set-currency',                       'app/user/set_currency',                       'default',    'Set Currency'],
     ['user/settingsws',                         'app/user/settings',                           'default',    'Settings'],
     ['user/settings/assessmentws',              'app/user/settings/financial_assessment',      'default',    'Financial Assessment'],
@@ -112,7 +112,7 @@ module.exports = [
     ['metatrader/types-of-accounts',            'static/metatrader/types_of_accounts',         'default',     'Types of MetaTrader 5 accounts'],
 
     // ==================== Section: "landing_pages" ====================
-    // ['graduates',                               'landing_pages/graduate_program',              null,        'Binary.com Graduate Program',        'NOT-en'],
+    // ['graduates',                               'landing_pages/graduate_program',              null,        'Binary.me Graduate Program',         'NOT-en'],
     // ['hackathon',                               'landing_pages/hackathon',                     null,        'Hackathon Competition',              'NOT-en'],
     ['landing/signup-frame',                    'landing_pages/signup_frame',                  null,        'Sign up'],
 ];

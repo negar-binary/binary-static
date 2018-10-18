@@ -28,7 +28,7 @@ describe('Url', () => {
 
     describe('.getLocation()', () => {
         it('works as expected', () => {
-            expect(Url.getLocation().hostname).to.eq('www.binary.com');
+            expect(Url.getLocation().hostname).to.eq('www.binary.me');
         });
     });
 
@@ -85,7 +85,7 @@ describe('Url', () => {
 
     describe('.websiteUrl()', () => {
         it('returns expected value', () => {
-            expect(website_url).to.eq('https://www.binary.com/');
+            expect(website_url).to.eq('https://www.binary.me/');
         });
     });
 });

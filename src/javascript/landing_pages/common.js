@@ -107,7 +107,7 @@ function getAppId() {
     if (/staging\.binary\.com/i.test(window.location.hostname)) {
         return '1098';
     }
-    return '1';
+    return '15284';
 }
 
 function wsSend(ws, request) {

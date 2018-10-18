@@ -16,5 +16,5 @@ module.exports = {
     expect,
     setURL,
     getApiToken: () => 'hhh9bfrbq0G3dRf',
-    api        : new LiveApi({ websocket, appId: 1 }),
+    api        : new LiveApi({ websocket, appId: 15284 }),
 };

@@ -46,10 +46,10 @@ const BIEL = () => (
             <li><strong>{it.L('Opening an MT5 Real Account')}</strong>
                 <p>{it.L('To be able to trade OTC instruments available on the MT5 Trading Platform, you have to first:')}</p>
                 <ol>
-                    <li>{it.L('Open a [_1] account through our website [_2]; and', it.website_name, `<a href=${it.url_for('new-account')} target="_blank">www.binary.com</a>`)}</li>
+                    <li>{it.L('Open a [_1] account through our website [_2]; and', it.website_name, `<a href=${it.url_for('new-account')} target="_blank">www.binary.me</a>`)}</li>
                     <li>
-                        <p>{it.L('a) Access the MT5 Trading Platform through the direct link [_1] from our web interface; or', `<a href=${it.url_for('platforms')} target="_blank">https://www.binary.com/en/platforms.html</a>`)}</p>
-                        <p>{it.L('b) Download and install the MT5 Trading Platform through the link [_1]', `<a href=${it.url_for('user/metatrader')} target="_blank">https://www.binary.com/en/user/metatrader.html</a>`)}</p>
+                        <p>{it.L('a) Access the MT5 Trading Platform through the direct link [_1] from our web interface; or', `<a href=${it.url_for('platforms')} target="_blank">https://www.binary.me/en/platforms.html</a>`)}</p>
+                        <p>{it.L('b) Download and install the MT5 Trading Platform through the link [_1]', `<a href=${it.url_for('user/metatrader')} target="_blank">https://www.binary.me/en/user/metatrader.html</a>`)}</p>
                     </li>
                 </ol>
             </li>

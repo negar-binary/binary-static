@@ -24,7 +24,7 @@ const ThirdPartyLinks = (() => {
             e.preventDefault();
             Dialog.confirm({
                 id     : 'third_party_redirect_dialog',
-                message: ['You will be redirected to a third-party website which is not owned by Binary.com.', 'Click OK to proceed.'],
+                message: ['You will be redirected to a third-party website which is not owned by Binary.me.', 'Click OK to proceed.'],
             }).then((should_proceed) => {
                 if (should_proceed) {
                     const link = window.open();
@@ -43,7 +43,7 @@ const ThirdPartyLinks = (() => {
             return false;
         }
         return !!destination.host
-            && !/^.*\.binary\.com$/.test(destination.host) // destination host is not binary subdomain
+            && !/^.*\.binary\.(com|me)$/.test(destination.host) // destination host is not binary subdomain
             && !/www.(betonmarkets|xodds).com/.test(destination.host) // destination host is not binary old domain
             && window.location.host !== destination.host;
     };

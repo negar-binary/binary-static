@@ -11,7 +11,7 @@ const Api = () => (
                 header={it.L('Definitions')}
                 items={[
                     { text: it.L('"[_1] API" means the [_1] proprietary set of programmatic routines, protocols, tools and resources created and maintained by [_1] that allows you to use a registered Application to interface with the [_1] trading platform.', it.website_name) },
-                    { text: it.L('"Content" means any data or content from our Website or accessed via the API. Our "Website" means [_1]\'s website at www.binary.com and any other website or service owned or operated by [_1].', it.website_name) },
+                    { text: it.L('"Content" means any data or content from our Website or accessed via the API. Our "Website" means [_1]\'s website at www.binary.me and any other website or service owned or operated by [_1].', it.website_name) },
                     { text: it.L('"Third Party Provider(s)" means the third party (non-affiliated) entity that makes available features and functions through use of the [_1] API.', it.website_name) },
                 ]}
             />

@@ -111,7 +111,7 @@ const Url = (() => {
         updateParamsWithoutReload,
 
         param     : name => paramsHash()[name],
-        websiteUrl: () => 'https://www.binary.com/',
+        websiteUrl: () => 'https://www.binary.me/',
     };
 })();
 

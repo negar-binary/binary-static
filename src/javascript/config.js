@@ -29,7 +29,7 @@ const getAppId = () => {
         app_id = user_app_id;
     } else {
         window.localStorage.removeItem('config.default_app_id');
-        app_id = 1;
+        app_id = 15284;
     }
     return app_id;
 };
@@ -54,7 +54,7 @@ const getSocketURL = () => {
         // }
 
         // let server = 'blue';
-        // if (/www\.binary\.com/i.test(window.location.hostname)) {
+        // if (/www\.binary\.(com|me)/i.test(window.location.hostname)) {
         //     const loginid = window.localStorage.getItem('active_loginid');
         //     let client_type = category_map[2];
         //     if (loginid) {
@@ -69,7 +69,7 @@ const getSocketURL = () => {
 
         // TODO: in order to use connection_setup config, uncomment the above section and remove next lines
 
-        const is_production = /www\.binary\.com/i.test(window.location.hostname);
+        const is_production = /www\.binary\.me/i.test(window.location.hostname);
         const loginid       = window.localStorage.getItem('active_loginid');
         const is_real       = loginid && !/^VRT/.test(loginid);
         const server        = is_production && is_real ? 'green' : 'blue';
