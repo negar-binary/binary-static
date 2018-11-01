@@ -1,11 +1,11 @@
 Binary-Static 
 =============
 
-This repository contains the static HTML, Javascript, CSS, and images content of the [Binary.com](http://www.binary.me) website.
+This repository contains the static HTML, Javascript, CSS, and images content of the [Binary.me](http://www.binary.me) website.
 
 ## Installation
 
-In order to work on your own version of the Binary.com Javascript and CSS, please **fork this project**.
+In order to work on your own version of the Binary.me Javascript and CSS, please **fork this project**.
 
 You will also need to install the following on your development machine:
 
