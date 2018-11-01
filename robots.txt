@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.binary.com/sitemap.xml
+Sitemap: https://www.binary.me/sitemap.xml
