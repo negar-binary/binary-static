@@ -169,7 +169,7 @@ const createContextBuilder = async () => {
             ...config.sections.map(section => `${config.root_url}css/${section}.min.css?${static_hash}`),
         ],
         languages  : config.languages,
-        broker_name: 'Binary.me',
+        broker_name: 'Binary.com',
         static_hash,
     };
 
@@ -200,7 +200,7 @@ async function compile(page) {
     const tasks = languages.map(async lang => {
         const affiliate_language_code = common.getAffiliateSignupLanguage(lang);
         const model = {
-            website_name   : 'Binary.me',
+            website_name   : 'Binary.com',
             title          : page.title,
             layout         : page.layout,
             language       : lang.toUpperCase(),

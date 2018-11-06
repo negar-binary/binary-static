@@ -23,7 +23,7 @@ const LoggedIn = () => (
             <div id='header-binary'>
                 <a href={it.url_for('/')}>
                     <img id='symbol-logo' src={it.url_for('images/logo/symbol.svg')} alt='' />
-                    <img id='type-logo' src={it.url_for('images/logo/type.svg')} alt='Binary.me' />
+                    <img id='type-logo' src={it.url_for('images/logo/type.svg')} alt='Binary.com' />
                 </a>
             </div>
             <div id='content-holder'>

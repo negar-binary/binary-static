@@ -446,7 +446,7 @@ module.exports = [
     'You have successfully disabled two-factor authentication for your account.',
     'You have successfully enabled two-factor authentication for your account.',
     'You should enter [_1] characters.',
-    'You will be redirected to a third-party website which is not owned by Binary.me.',
+    'You will be redirected to a third-party website which is not owned by Binary.com.',
     'Your [_1] day withdrawal limit is currently [_2] [_3] (or equivalent in other currency).',
     'Your account has no Login/Logout activity.',
     'Your account has no trading activity.',
