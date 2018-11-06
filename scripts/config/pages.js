@@ -19,7 +19,7 @@ module.exports = [
     ['new_account/maltainvestws',               'app/new_account/financial',                   'default',    'Financial Account Opening'],
     ['new_account/realws',                      'app/new_account/real',                        'default',    'Real Money Account Opening'],
     ['new_account/virtualws',                   'app/new_account/virtual',                     'default',    'Create New Virtual-money Account'],
-    ['new_account/welcome',                     'app/new_account/welcome_page',                'default',    'Welcome to Binary.me'],
+    ['new_account/welcome',                     'app/new_account/welcome_page',                'default',    'Welcome to Binary.com'],
 
     ['resources',                               'app/resources/index',                         'default',    'Resources'],
     ['resources/asset_indexws',                 'app/resources/asset_index',                   'full_width', 'Asset Index'],
@@ -116,7 +116,7 @@ module.exports = [
     ['metatrader/types-of-accounts',            'static/metatrader/types_of_accounts',         'default',     'Types of MetaTrader 5 accounts'],
 
     // ==================== Section: "landing_pages" ====================
-    // ['graduates',                               'landing_pages/graduate_program',              null,        'Binary.me Graduate Program',         'NOT-en'],
+    // ['graduates',                               'landing_pages/graduate_program',              null,        'Binary.com Graduate Program',         'NOT-en'],
     // ['hackathon',                               'landing_pages/hackathon',                     null,        'Hackathon Competition',              'NOT-en'],
     ['landing/signup-frame',                    'landing_pages/signup_frame',                  null,        'Sign up'],
 ];

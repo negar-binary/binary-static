@@ -1,7 +1,7 @@
 {
   "name": "binary-static",
   "version": "3.8.0",
-  "description": "Binary.me static content",
+  "description": "Binary.com static content",
   "scripts": {
     "test": "grunt test",
     "livereload": "sudo -p 'enter password for sudo:' grunt livereload",
@@ -16,7 +16,7 @@
     "binary",
     "static"
   ],
-  "author": "Binary.me",
+  "author": "Binary.com",
   "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/binary-com/binary-static/issues"
