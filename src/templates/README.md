@@ -80,7 +80,7 @@ export default Loading;
 - There are cases where you do not want your strings to be escaped (i.g. when you place `<a/>` tags inside a `<Table />`). To bypass HTML escape, you can use `it.dangreouslyRenderHtml()` (under normal circumstances do NOT use this.):
 
 ```
-it.dangreouslyRenderHtml('<a href="https://binary.com"></a>');
+it.dangreouslyRenderHtml('<a href="https://binary.me"></a>');
 ```
 
 - Blocks need to have a single space after `{`, for example:

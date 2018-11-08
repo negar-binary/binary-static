@@ -3,7 +3,7 @@ const createElement = require('./utility').createElement;
 
 const Crowdin = (() => {
     /**
-     * in-context translation provided at: https://staging.binary.com/translations/
+     * in-context translation provided at: https://staging.binary.me/translations/
      * and uses 'ach' as pseudo language code
      */
     const isInContextEnvironment = () => (

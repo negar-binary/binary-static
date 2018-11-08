@@ -31,7 +31,7 @@ const getApplicableLanguages = (lang_filter) => common.languages.filter(lang => 
 
 const createSitemap = (conf) => {
     excluded = 0;
-
+  
     const sitemap = Sitemap.createSitemap({
         hostname : conf.url_prefix,
         cacheTime: 600000,

@@ -59,7 +59,7 @@
                 }
             }
             function isGtmApplicable() {
-                return /(www|staging)\.binary\.com/i.test(window.location.hostname);
+                return /(staging\.binary\.com|www\.binary\.me)/i.test(window.location.hostname);
             }
             function pushEvent() {
                 if(isGtmApplicable()) {

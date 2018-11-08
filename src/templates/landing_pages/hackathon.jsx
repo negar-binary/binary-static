@@ -44,7 +44,7 @@ const Hackathon = () => (
             <div className='container'>
                 <p>
                     Visit our
-                    <a className='text-bold' target='_blank' rel='noopener noreferrer' href='https://www.binary.com/en/careers.html'>career page</a>
+                    <a className='text-bold' target='_blank' rel='noopener noreferrer' href='https://www.binary.me/en/careers.html'>career page</a>
                      for more opportunities at Binary!
                 </p>
             </div>

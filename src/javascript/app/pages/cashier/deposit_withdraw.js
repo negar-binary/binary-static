@@ -256,7 +256,7 @@ const DepositWithdraw = (() => {
     };
 
     const setFrameHeight = (e) => {
-        if (!/www\.binary\.com/i.test(e.origin)) {
+        if (!/www\.binary\.me/i.test(e.origin)) {
             $iframe.height(+e.data || default_iframe_height);
         }
     };
